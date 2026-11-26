@@ -17,9 +17,9 @@
   /* ---------- Hero ---------- */
   header {
     background:
-      radial-gradient(ellipse 60% 90% at 15% 0%, rgba(201,169,89,.22), transparent 60%),
-      radial-gradient(ellipse 50% 80% at 90% 10%, rgba(255,255,255,.08), transparent 55%),
-      linear-gradient(160deg, #35793c 0%, var(--green) 45%, var(--green-deep) 100%);
+      radial-gradient(ellipse 60% 90% at 15% 0%, rgba(140,190,235,.28), transparent 60%),
+      radial-gradient(ellipse 50% 80% at 90% 10%, rgba(255,255,255,.10), transparent 55%),
+      linear-gradient(160deg, #2f6db3 0%, #1f4e79 45%, #14304d 100%);
     color:#f6eeda; text-align:center; padding:84px 20px 0; position:relative; overflow:hidden;
   }
   .eyebrow { letter-spacing:.42em; font-size:.78rem; text-transform:uppercase; color:var(--gold-light); margin-bottom:20px; }
@@ -28,7 +28,7 @@
   header .rule::before, header .rule::after { content:""; height:2px; width:88px; background:linear-gradient(90deg, transparent, var(--gold-light)); }
   header .rule::after { background:linear-gradient(90deg, var(--gold-light), transparent); }
   header .rule span { color:var(--gold-light); font-size:1rem; }
-  header p.tagline { font-size:1.18rem; color:#eee3c6; max-width:640px; margin:0 auto; font-style:italic; }
+  header p.tagline { font-size:1.18rem; color:#dcebf8; max-width:640px; margin:0 auto; font-style:italic; }
   .wave { display:block; width:100%; height:56px; margin-top:52px; }
 
   /* ---------- Body ---------- */
@@ -72,8 +72,9 @@
   .note { text-align:center; color:var(--slate); margin:40px auto 4px; font-style:italic; }
 
   /* ---------- Footer ---------- */
+  .fwave { display:block; width:100%; height:38px; margin-top:44px; }
   footer {
-    margin-top:44px; background:linear-gradient(160deg, var(--green) 0%, var(--green-deep) 100%);
+    margin-top:0; background:linear-gradient(160deg, #1f4e79 0%, #14304d 100%);
     color:#e8dfc8; text-align:center; font-size:.94rem; padding:34px 20px 40px;
   }
   footer .fname { color:#f6eeda; letter-spacing:.14em; font-size:1.02rem; margin-bottom:6px; }
@@ -84,6 +85,7 @@
     header { padding-top:60px; }
     header h1 { font-size:2.25rem; }
     .wave { height:36px; margin-top:36px; }
+    .fwave { height:26px; margin-top:30px; }
   }
 </style>
 </head>
@@ -92,7 +94,7 @@
   <h1>BUDDS CREEK GROUP</h1>
   <div class="rule"><span>&#10022;</span></div>
   <p class="tagline">One group, several good businesses — professional services and working tools.</p>
-  <svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,32 C200,58 400,6 600,26 C800,46 1000,10 1200,30 L1200,60 L0,60 Z" fill="#fdfaf2"></path></svg>
+  <svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,42 C200,14 400,56 600,34 C800,12 1000,52 1200,28 L1200,60 L0,60 Z" fill="rgba(125,180,230,.35)"/><path d="M0,32 C200,58 400,6 600,26 C800,46 1000,10 1200,30 L1200,60 L0,60 Z" fill="#fdfaf2"></path></svg>
 </header>
 <main>
   <p class="intro">Budds Creek Group is the <strong>parent company</strong> behind the businesses below. Each one keeps its own name, its own customers, and its own way of working — the group keeps them all pointed the same direction.</p>
@@ -137,6 +139,7 @@
 
   <p class="note">Questions about any of the businesses? One mailbox reaches the whole group.</p>
 </main>
+<svg class="fwave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0,40 L0,22 C200,4 400,38 600,20 C800,2 1000,32 1200,14 L1200,40 Z" fill="#1f4e79"/></svg>
 <footer>
   <div class="fname">BUDDS CREEK GROUP</div>
   Questions? <a href="mailto:admin@buddscreekgroup.com">admin@buddscreekgroup.com</a>
